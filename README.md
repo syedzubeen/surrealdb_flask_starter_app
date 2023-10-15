@@ -1,4 +1,4 @@
-# Surreal DB Starter App
+# SurrealDB Starter App
 
 Welcome to the SurrealDB Flask Starter App repository! This project demonstrates how to install Surreal DB and run a Flask application that utilizes it. If you're ready to get started, follow the instructions below.
 
