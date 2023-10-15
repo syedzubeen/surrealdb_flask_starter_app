@@ -29,6 +29,17 @@ For Windows users, you can install SurrealDB using Windows PowerShell. Open Powe
 iwr https://windows.surrealdb.com -useb | iex
 ```
 This command will download and install SurrealDB on your Windows system and you can monitor any incoming updates to your DB using this.
+Once the installation is complete, you can open up your command prompt and type the following to confirm the installation.
+```bash
+surreal version 
+```
+Next, to run an instance and monitor DB entries, you can type in the following command to get the DB instance up and running:
+
+```bash
+surreal start
+```
+![surrealstart](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/960c8745-2120-4e6a-aef3-e2be7f97b155)
+
 
 ![backendsurreal](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/c525585d-d605-4638-93b8-99f01cca2b2b)
 
