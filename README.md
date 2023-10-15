@@ -61,7 +61,8 @@ This command will start the Flask development server, and you can access the Sur
 
 Once the Flask app is up and running you can use the signup page to create entries to your DB and can monitor them using the steps below:
 
-![surrealstart](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/960c8745-2120-4e6a-aef3-e2be7f97b155)
+![backendsurreal](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/5d11e419-a521-44a5-9fe2-8ff20d246dee)
+
 
 ### Contributing
 If you'd like to contribute to this project, please feel free to fork the repository and submit a pull request.
