@@ -68,5 +68,3 @@ If you'd like to contribute to this project, please feel free to fork the reposi
 
 ### Issues and Support
 If you encounter any issues or have questions, please open an issue on this repository, and I'll do my best to assist you.
-
-Thank you for using the SurrealDB Starter App! We hope you find it helpful to explore the capabilities of SurrealDB.
