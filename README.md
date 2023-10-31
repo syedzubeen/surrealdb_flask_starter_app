@@ -21,8 +21,6 @@ iwr https://windows.surrealdb.com -useb | iex
 ```
 This command will download and install SurrealDB on your Windows system and you can monitor any incoming updates to your DB using this.
 
-![surrealstart](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/960c8745-2120-4e6a-aef3-e2be7f97b155)
-
 **Install Dependencies:**
 
 You can install SurrealDB using pip. Open your terminal and run the following command:
@@ -57,11 +55,21 @@ flask run
 ```
 This command will start the Flask development server, and you can access the SurrealDB Starter App in your web browser by navigating to http://localhost:5000.
 
-![surrealdbstarter](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/b842b329-c6c1-4809-8f25-e9ed802ab60d)
+### CRUD Operations
 
-Once the Flask app is up and running you can use the signup page to create entries to your DB and can monitor them using the steps below:
+## Creating a user with DB
 
-![backendsurreal](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/5d11e419-a521-44a5-9fe2-8ff20d246dee)
+![insert-records-surrealdb](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/68ea8cd2-b87e-4250-9285-618a755648e6)
+
+
+## Updating details for a user in the DB
+
+![update-records-surrealdb](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/b91ca44f-6937-40d1-b415-c0b2425c57e2)
+
+
+## Deleting a user from the DB
+
+![delete-records-surrealdb](https://github.com/syedzubeen/surrealdb_flask_starter_app/assets/14253061/9871d1c3-6c61-471b-8266-7fa536ff22a5)
 
 
 ### Contributing
