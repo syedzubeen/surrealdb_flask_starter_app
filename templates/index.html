@@ -1,27 +1,36 @@
-<!DOCTYPE html>
-<html>
+{% extends "base.html" %}
+{% block content %}
+
 <head>
-    <title>Sign Up</title>
     <style>
-        body {
-            font-family: 'Courier New', Courier, monospace;
-        }
         .center-content {
             text-align: center; /* Center the text horizontally */
-            margin-top: 10%;   /* Adjust this value for vertical centering */
+            margin-top: 5%;   /* Adjust this value for vertical centering */
         }
     </style>
 </head>
-<body>
+
+    
     <div class="center-content">
-    <h1>SurrealDB Starter App</h1>
+        <p>Don't have an account. Sign-up below.<p></p>
     <form method="POST">
         <label for="username">Username:</label>
         <input type="text" name="username" required><br><br><br>
         <label for="password">Password:</label>
-        <input type="password" name="password" required><br><br><br>
-        <input type="submit" value="Sign Up">
-    </form>
+        <input type="password" name="password" required><br><br>
+        <button type="submit" name="add-user" class="btn btn-success btn-sm">Sign Up</button>
+    </form><br><hr><br>
+    <p>Log In for existing users<p>
+        <form action="/user_info" method="post"> <!-- Update the action to your Flask route -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit" name="add-user" class="btn btn-danger btn-sm">Log In</button>
+
+        </form>
     </div>
-</body>
-</html>
+
+
+{% endblock %}
