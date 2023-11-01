@@ -1,4 +1,4 @@
-# SurrealDB Starter App
+# SurrealDB + Flask Starter App
 
 Welcome to the SurrealDB Flask Starter App repository! This project demonstrates how to install Surreal DB and run a Flask application that utilizes it. If you're ready to get started, follow the instructions below.
 
@@ -26,7 +26,7 @@ This command will download and install SurrealDB on your Windows system and you 
 You can install SurrealDB using pip. Open your terminal and run the following command:
 
 ```sh
-pip install requests, surrealdb
+pip install -r requirements.txt
 ```
 For more details regarding installation, you can refer to SurrealDB's official documentation [here](https://surrealdb.com/docs/integration/sdks/python).
 
